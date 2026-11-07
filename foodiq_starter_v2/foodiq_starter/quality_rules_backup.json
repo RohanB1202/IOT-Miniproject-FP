@@ -1,0 +1,23 @@
+{
+  "milk": {
+    "enabled": false,
+    "source": "Enter the exact applicable FSSAI product standard, amendment and effective date after verification.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": []
+  },
+  "fermented": {
+    "enabled": false,
+    "source": "Enter the exact applicable FSSAI fermented-milk/product standard, amendment and effective date after verification.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": []
+  },
+  "fruit_beverage": {
+    "enabled": false,
+    "source": "Enter the exact applicable FSSAI fruit/beverage product standard, amendment and effective date after verification.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": []
+  }
+}

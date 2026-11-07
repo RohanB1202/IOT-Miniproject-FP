@@ -1,0 +1,19 @@
+FOODIQ MILK-ONLY FRAMEWORK — INSTALLATION
+
+Package contents
+- app.py: Milk-only navigation and dataset/model setup interface, retaining expert evidence verification and existing application functions.
+- quality_rules.json: Milk reference limits for raw cow and raw buffalo milk, deliberately disabled pending independent regulatory review.
+
+INSTALLATION
+1. Stop Streamlit (Ctrl+C).
+2. Back up your existing app.py and quality_rules.json.
+3. Copy these two files into your existing foodiq_starter project folder, replacing those two files only.
+4. Do NOT replace or delete foodiq.db, models/, ai_datasets/, uploads, or other project files.
+5. Run: python -m py_compile app.py
+6. Run: streamlit run app.py
+
+IMPORTANT
+- Existing database observations and expert reviews are not modified by this package.
+- quality_rules.json keeps milk rules disabled. Do not enable them until current Gazette requirements, product scope, test methods and limits are independently verified by a qualified reviewer.
+- No A/B/C grade bands are invented or enabled.
+- This package narrows the user interface and active dataset selector to Milk Quality; it does not delete old records or historical files for other modules.

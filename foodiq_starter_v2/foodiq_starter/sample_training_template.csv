@@ -1,0 +1,1 @@
+category,product_type,temperature_c,humidity_pct,mq2_raw,mq135_raw,milk_fat_pct,milk_snf_pct,milk_acidity_pct,milk_ph,density,appearance_score,odour_score,ph,titratable_acidity_pct,fat_pct,total_solids_pct,fermentation_hours,syneresis_score,firmness_n,tss_brix,weight_loss_pct,ripeness_score,bruising_score,fruit_content_pct,package_integrity,expert_grade

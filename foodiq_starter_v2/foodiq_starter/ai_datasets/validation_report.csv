@@ -1,0 +1,4 @@
+category,status,rows,eligible_rows,issues
+milk,STRUCTURALLY VALID,0,0,None
+fermented,STRUCTURALLY VALID,0,0,None
+fruit_beverage,STRUCTURALLY VALID,0,0,None

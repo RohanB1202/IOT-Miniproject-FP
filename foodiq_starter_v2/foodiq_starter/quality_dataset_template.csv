@@ -1,0 +1,1 @@
+record_id,batch_id,module,product_type,created_at,grade,temperature_c,humidity_pct,mq2_raw,mq135_raw,fat_pct,snf_pct,ph,titratable_acidity_pct_lactic_acid,acidity_pct_lactic_acid,density_kg_m3,total_solids_pct,fermentation_hours,tss_brix,acidity_pct,firmness_n,weight_loss_pct

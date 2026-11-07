@@ -1,0 +1,92 @@
+{
+  "dataset": "fssai_milk_quality_dataset.csv",
+  "rows": 1200,
+  "features": [
+    "fat_pct",
+    "snf_pct",
+    "total_sodium_mg_per_100g_snf",
+    "total_urea_ppm",
+    "milk_class"
+  ],
+  "target": "fssai_composition_result",
+  "tree_parameters": {
+    "ccp_alpha": 0.0,
+    "class_weight": {
+      "PASS": 1,
+      "HOLD": 2
+    },
+    "criterion": "gini",
+    "max_depth": 8,
+    "max_features": null,
+    "max_leaf_nodes": null,
+    "min_impurity_decrease": 0.0,
+    "min_samples_leaf": 10,
+    "min_samples_split": 20,
+    "min_weight_fraction_leaf": 0.0,
+    "monotonic_cst": null,
+    "random_state": 42,
+    "splitter": "best"
+  },
+  "held_out_test": {
+    "accuracy": 0.9541666666666667,
+    "balanced_accuracy": 0.935515873015873,
+    "hold_precision": 0.9552238805970149,
+    "hold_recall": 0.8888888888888888,
+    "hold_f1": 0.920863309352518,
+    "pass_recall": 0.9821428571428571
+  },
+  "cross_validation_5_fold": {
+    "accuracy": {
+      "mean": 0.9008333333333333,
+      "std": 0.025055493963954862
+    },
+    "balanced_accuracy": {
+      "mean": 0.8886904761904763,
+      "std": 0.02071869441620094
+    },
+    "hold_precision": {
+      "mean": 0.8235245399346283,
+      "std": 0.05733083653929355
+    },
+    "hold_recall": {
+      "mean": 0.8583333333333334,
+      "std": 0.0184256932797522
+    },
+    "hold_f1": {
+      "mean": 0.8396157490660698,
+      "std": 0.03470413015492119
+    }
+  },
+  "classification_report": {
+    "PASS": {
+      "precision": 0.953757225433526,
+      "recall": 0.9821428571428571,
+      "f1-score": 0.967741935483871,
+      "support": 168.0
+    },
+    "HOLD": {
+      "precision": 0.9552238805970149,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.920863309352518,
+      "support": 72.0
+    },
+    "accuracy": 0.9541666666666667,
+    "macro avg": {
+      "precision": 0.9544905530152705,
+      "recall": 0.935515873015873,
+      "f1-score": 0.9443026224181945,
+      "support": 240.0
+    },
+    "weighted avg": {
+      "precision": 0.9541972219825727,
+      "recall": 0.9541666666666667,
+      "f1-score": 0.9536783476444651,
+      "support": 240.0
+    }
+  },
+  "confusion_matrix_labels": [
+    "PASS",
+    "HOLD"
+  ],
+  "limitation": "Test/demo model only. Its labels are rule-derived, so it must not replace the FSSAI composition screen or be used for production food-safety decisions."
+}

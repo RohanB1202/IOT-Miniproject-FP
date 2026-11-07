@@ -1,0 +1,85 @@
+|--- numeric__total_sodium_mg_per_100g_snf <= 645.55
+|   |--- numeric__total_urea_ppm <= 699.20
+|   |   |--- numeric__snf_pct <= 8.57
+|   |   |   |--- numeric__snf_pct <= 7.05
+|   |   |   |   |--- numeric__snf_pct <= 6.01
+|   |   |   |   |   |--- class: HOLD
+|   |   |   |   |--- numeric__snf_pct >  6.01
+|   |   |   |   |   |--- numeric__fat_pct <= 2.06
+|   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |--- numeric__fat_pct >  2.06
+|   |   |   |   |   |   |--- class: PASS
+|   |   |   |--- numeric__snf_pct >  7.05
+|   |   |   |   |--- milk_class__milk_class_Goat or Sheep Milk <= 0.50
+|   |   |   |   |   |--- numeric__snf_pct <= 8.46
+|   |   |   |   |   |   |--- numeric__total_sodium_mg_per_100g_snf <= 427.65
+|   |   |   |   |   |   |   |--- numeric__snf_pct <= 8.32
+|   |   |   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |   |   |--- numeric__snf_pct >  8.32
+|   |   |   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |   |--- numeric__total_sodium_mg_per_100g_snf >  427.65
+|   |   |   |   |   |   |   |--- numeric__fat_pct <= 3.64
+|   |   |   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |   |   |--- numeric__fat_pct >  3.64
+|   |   |   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |--- numeric__snf_pct >  8.46
+|   |   |   |   |   |   |--- numeric__fat_pct <= 3.47
+|   |   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |   |--- numeric__fat_pct >  3.47
+|   |   |   |   |   |   |   |--- class: PASS
+|   |   |   |   |--- milk_class__milk_class_Goat or Sheep Milk >  0.50
+|   |   |   |   |   |--- numeric__snf_pct <= 8.08
+|   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |--- numeric__snf_pct >  8.08
+|   |   |   |   |   |   |--- numeric__fat_pct <= 3.38
+|   |   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |   |--- numeric__fat_pct >  3.38
+|   |   |   |   |   |   |   |--- class: PASS
+|   |   |--- numeric__snf_pct >  8.57
+|   |   |   |--- numeric__fat_pct <= 3.07
+|   |   |   |   |--- numeric__fat_pct <= 0.56
+|   |   |   |   |   |--- numeric__total_sodium_mg_per_100g_snf <= 197.00
+|   |   |   |   |   |   |--- class: PASS
+|   |   |   |   |   |--- numeric__total_sodium_mg_per_100g_snf >  197.00
+|   |   |   |   |   |   |--- class: PASS
+|   |   |   |   |--- numeric__fat_pct >  0.56
+|   |   |   |   |   |--- milk_class__milk_class_Double Toned Milk <= 0.50
+|   |   |   |   |   |   |--- numeric__fat_pct <= 2.62
+|   |   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |   |--- numeric__fat_pct >  2.62
+|   |   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |--- milk_class__milk_class_Double Toned Milk >  0.50
+|   |   |   |   |   |   |--- numeric__fat_pct <= 1.59
+|   |   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |   |--- numeric__fat_pct >  1.59
+|   |   |   |   |   |   |   |--- numeric__snf_pct <= 9.11
+|   |   |   |   |   |   |   |   |--- class: PASS
+|   |   |   |   |   |   |   |--- numeric__snf_pct >  9.11
+|   |   |   |   |   |   |   |   |--- class: PASS
+|   |   |   |--- numeric__fat_pct >  3.07
+|   |   |   |   |--- numeric__fat_pct <= 3.69
+|   |   |   |   |   |--- class: PASS
+|   |   |   |   |--- numeric__fat_pct >  3.69
+|   |   |   |   |   |--- numeric__fat_pct <= 4.55
+|   |   |   |   |   |   |--- milk_class__milk_class_Standardized Milk <= 0.50
+|   |   |   |   |   |   |   |--- milk_class__milk_class_Cow Milk <= 0.50
+|   |   |   |   |   |   |   |   |--- class: PASS
+|   |   |   |   |   |   |   |--- milk_class__milk_class_Cow Milk >  0.50
+|   |   |   |   |   |   |   |   |--- class: PASS
+|   |   |   |   |   |   |--- milk_class__milk_class_Standardized Milk >  0.50
+|   |   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |--- numeric__fat_pct >  4.55
+|   |   |   |   |   |   |--- milk_class__milk_class_Full Cream Milk <= 0.50
+|   |   |   |   |   |   |   |--- milk_class__milk_class_Buffalo Milk <= 0.50
+|   |   |   |   |   |   |   |   |--- class: PASS
+|   |   |   |   |   |   |   |--- milk_class__milk_class_Buffalo Milk >  0.50
+|   |   |   |   |   |   |   |   |--- class: PASS
+|   |   |   |   |   |   |--- milk_class__milk_class_Full Cream Milk >  0.50
+|   |   |   |   |   |   |   |--- numeric__fat_pct <= 6.04
+|   |   |   |   |   |   |   |   |--- class: HOLD
+|   |   |   |   |   |   |   |--- numeric__fat_pct >  6.04
+|   |   |   |   |   |   |   |   |--- class: PASS
+|   |--- numeric__total_urea_ppm >  699.20
+|   |   |--- class: HOLD
+|--- numeric__total_sodium_mg_per_100g_snf >  645.55
+|   |--- class: HOLD

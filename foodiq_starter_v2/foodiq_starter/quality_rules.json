@@ -1,0 +1,76 @@
+{
+  "milk": {
+    "enabled": false,
+    "source": "REFERENCE ONLY — FSSAI Food Safety and Standards (Food Products Standards and Food Additives) Regulations, 2011, Regulation 2.1.2; Chapter 2.1 dairy compendium reviewed 03-Nov-2026. Reference minima for raw cow milk: fat 3.2% m/m and SNF 8.3% m/m; raw buffalo milk: fat 5.0% m/m and SNF 9.0% m/m. Compendium is not itself the legal instrument; verify current Gazette notifications, product definition, point of sale, method and amendments before activation. Independent regulatory review pending.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": [
+      {
+        "field": "fat_pct",
+        "allowed": {
+          "min": 3.2
+        },
+        "milk_category": "Raw milk",
+        "milk_product_type": "Cow milk",
+        "reason": "Reference check: raw cow milk fat is below the 3.2% m/m minimum. Hold for confirmatory review."
+      },
+      {
+        "field": "snf_pct",
+        "allowed": {
+          "min": 8.3
+        },
+        "milk_category": "Raw milk",
+        "milk_product_type": "Cow milk",
+        "reason": "Reference check: raw cow milk SNF is below the 8.3% m/m minimum. Hold for confirmatory review."
+      },
+      {
+        "field": "fat_pct",
+        "allowed": {
+          "min": 5.0
+        },
+        "milk_category": "Raw milk",
+        "milk_product_type": "Buffalo milk",
+        "reason": "Reference check: raw buffalo milk fat is below the 5.0% m/m minimum. Hold for confirmatory review."
+      },
+      {
+        "field": "snf_pct",
+        "allowed": {
+          "min": 9.0
+        },
+        "milk_category": "Raw milk",
+        "milk_product_type": "Buffalo milk",
+        "reason": "Reference check: raw buffalo milk SNF is below the 9.0% m/m minimum. Hold for confirmatory review."
+      }
+    ],
+    "framework_version": "1.0",
+    "scope": [
+      "Raw milk — Cow milk",
+      "Raw milk — Buffalo milk"
+    ],
+    "regulatory_review_status": "PENDING_INDEPENDENT_REVIEW",
+    "grade_system": {
+      "enabled": false,
+      "labels": [
+        "A",
+        "B",
+        "C"
+      ],
+      "note": "FOODIQ project-defined grades only; no grade bands configured until supported by a documented protocol and expert approval."
+    },
+    "safety_policy": "Safety and adulteration screening outcomes must be assessed separately and must not be averaged into a composition grade. A screening result is not a substitute for confirmatory laboratory testing."
+  },
+  "fermented": {
+    "enabled": false,
+    "source": "Out of current project scope.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": []
+  },
+  "fruit_beverage": {
+    "enabled": false,
+    "source": "Out of current project scope.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": []
+  }
+}

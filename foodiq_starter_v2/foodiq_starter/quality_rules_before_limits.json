@@ -1,0 +1,23 @@
+{
+  "milk": {
+    "enabled": false,
+    "source": "FSSAI Food Safety and Standards (Food Products Standards and Food Additives) Regulations, 2011, Regulation 2.1.2 — Standard for Milk. Official reference: Chapter 2.1 (Dairy products and analogues), FSSAI compendium. Cow milk: minimum fat 3.2% m/m and SNF 8.3% m/m. Final amendment reconciliation and independent review pending.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": []
+  },
+  "fermented": {
+    "enabled": false,
+    "source": "Enter the exact applicable FSSAI fermented-milk/product standard, amendment and effective date after verification.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": []
+  },
+  "fruit_beverage": {
+    "enabled": false,
+    "source": "Enter the exact applicable FSSAI fruit/beverage product standard, amendment and effective date after verification.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": []
+  }
+}

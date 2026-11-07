@@ -1,0 +1,42 @@
+{
+  "milk": {
+    "enabled": false,
+    "source": "FSSAI Food Safety and Standards (Food Products Standards and Food Additives) Regulations, 2011, Regulation 2.1.2. Current FSSAI Chapter 2.1 dairy compendium checked 03-Nov-2026. Raw cow milk: minimum fat 3.2% m/m and SNF 8.3% m/m. Amendment No. 84 dated 10-Jul-2025 reviewed; draft amendment dated 30-Mar-2026 concerns packaging/labelling cross-reference, not these composition limits. Independent regulatory review pending.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": [
+      {
+        "field": "fat_pct",
+        "allowed": {
+          "min": 3.2
+        },
+        "milk_category": "Raw milk",
+        "milk_product_type": "Cow milk",
+        "reason": "Raw cow milk fat is below the configured FSSAI minimum of 3.2% m/m. Hold for review."
+      },
+      {
+        "field": "snf_pct",
+        "allowed": {
+          "min": 8.3
+        },
+        "milk_category": "Raw milk",
+        "milk_product_type": "Cow milk",
+        "reason": "Raw cow milk SNF is below the configured FSSAI minimum of 8.3% m/m. Hold for review."
+      }
+    ]
+  },
+  "fermented": {
+    "enabled": false,
+    "source": "Enter the exact applicable FSSAI fermented-milk/product standard, amendment and effective date after verification.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": []
+  },
+  "fruit_beverage": {
+    "enabled": false,
+    "source": "Enter the exact applicable FSSAI fruit/beverage product standard, amendment and effective date after verification.",
+    "reviewed_by": "",
+    "criteria": {},
+    "hard_limits": []
+  }
+}
